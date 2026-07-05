@@ -42,7 +42,7 @@ CodeAlpha_LanguageTranslation/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/bhuvikatariamnk2005-stack/CodeAlpha_LanguageTranslation.git
 ```
 
 ### 2. Move into the project folder
