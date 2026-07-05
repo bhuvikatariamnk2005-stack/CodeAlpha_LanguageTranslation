@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #E3F2FD,
+        #F5F7FA,
+        #FFFFFF
+    );
+}
+
+h1{
+    color:#1565C0;
+    font-weight:700;
+    text-align:center;
+}
+
+h2,h3{
+    color:#0D47A1;
+}
+
+section[data-testid="stSidebar"]{
+    background:#1565C0;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+textarea{
+    border-radius:12px !important;
+    border:2px solid #90CAF9 !important;
+}
+
+div[data-baseweb="select"]{
+    border-radius:12px;
+}
+
+.stButton>button{
+
+    width:100%;
+
+    background:#1565C0;
+
+    color:white;
+
+    border-radius:12px;
+
+    height:55px;
+
+    font-size:18px;
+
+    border:none;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    background:#0D47A1;
+
+    transform:scale(1.03);
+
+    color:white;
+}
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border-radius:12px;
+
+    height:55px;
+
+    border:none;
+
+    transition:0.3s;
+}
+
+.stDownloadButton>button:hover{
+
+    background:#1B5E20;
+
+    transform:scale(1.03);
+
+    color:white;
+}
+
+div[data-testid="stAlert"]{
+
+    border-radius:12px;
+}
+
+details{
+
+    border-radius:10px;
+
+    border:1px solid #90CAF9;
+
+    padding:5px;
+
+    background:white;
+}
+
+footer{
+
+    visibility:hidden;
+}
+
+::-webkit-scrollbar{
+
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#1565C0;
+
+    border-radius:20px;
+}
